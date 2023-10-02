@@ -25,8 +25,15 @@ header{
 .headers :hover{
     color: rgb(0, 0, 0);
     background-color: #cdcdcd;
-    width: auto;
-    height: auto;
+
+}
+.headers p:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+height: 30px;
 }
 .yeniy {
     display: none; 
@@ -39,18 +46,20 @@ header{
     background-color: #ffffff;
     cursor: pointer;
 }
-
-.arama img {
-    width: 15px; 
-    height: 15px; 
-    margin-top: 5px; 
-    color: #ffffff;
-    background-color: #000000;
+.arama{
+    padding: 5px;
+    width: 30px; 
+    height: 30px; 
 }
-.arama :hover{
-    color: #ffffff;
-    background-color: rgb(255, 0, 0);
+.arama img {
+    width: 20px; 
+    height: 20px; 
+    background-color: transparent;
     cursor: pointer;
+}
+.arama:hover{
+    color: #ffffff;
+    background-color: #ff0000;
 }
 
 .headers p{
@@ -204,6 +213,8 @@ margin-bottom: 30px;
     border-bottom: 1px solid #999; 
   margin-bottom: 5px;
 }
+
+
 .siyah{
     background-color: #000000;
 }
@@ -388,9 +399,10 @@ height: 200px;
     height: 20vh;
     flex: 1;
 }
-.chc{
+.nameemail{
     display: flex;
 flex-direction: row;
+
 }
 .chic0{
     flex-direction: column;
@@ -401,6 +413,18 @@ flex-direction: row;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+}
+#name{
+    width: 170px;
+    height: 30px;
+}
+#email{
+    width: 170px;
+    height: 30px;
+}
+#message{
+    width: 344px;
+    height: 30px;
 }
 #send{
     justify-content: center;
